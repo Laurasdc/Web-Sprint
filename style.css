@@ -26,6 +26,17 @@ body, html {
   flex-direction: column;
 }
 
+.conteudo-terciario {
+  background-color: #172833; 
+  height: 100vh;
+  width: 100vw; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .texto-central {
   font-size: 2em; 
   color: white; 
