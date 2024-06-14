@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('assets/imagemdefundo.png');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-secundario {
+  background-color: #172833; 
+  height: 100vh;
+  width: 100vw; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto-central {
+  font-size: 2em; 
+  color: white; 
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.logo {
+  position: absolute; 
+  top: 91px; 
+  left: 97px; 
+}
+
+.nav-menu {
+  position: absolute;
+  top: 91px; 
+  left: 232px; 
+  list-style-type: none;
+}
+
+.nav-menu li {
+  display: inline; 
+  margin-right: 20px; 
+}
+
+.nav-menu a {
+  text-decoration: none; 
+  color: white; 
+  font-size: 1.2em; 
+}
+
+.formula-e-conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formula-e-imagem, .formula-e-texto {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+}
+
+.formula-e-imagem img {
+  max-width: 100%;
+  height: auto;
+}
