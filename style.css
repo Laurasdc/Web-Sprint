@@ -37,6 +37,27 @@ body, html {
   flex-direction: column;
 }
 
+#impactos-positivos-negativos {
+  text-align: center; 
+}
+
+.tabela-centro {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: auto; 
+}
+
+table {
+  width: 1197px; 
+  margin: auto; 
+}
+
+td, th {
+}
+
+
+
 .texto-central {
   font-size: 2em; 
   color: white; 
