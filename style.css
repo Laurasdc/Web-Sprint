@@ -46,14 +46,22 @@ body, html {
   justify-content: center; 
   align-items: center; 
   height: auto; 
+  background-color: #142C5C;
+  padding: 20px; 
 }
 
 table {
   width: 1197px; 
   margin: auto; 
+  border: none;
+  background-color: #142C5C; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 td, th {
+  padding: 15px; 
+  border: 1px solid #dddddd; 
+  color:white;
 }
 
 
