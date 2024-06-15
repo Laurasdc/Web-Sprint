@@ -27,11 +27,13 @@ setInterval(function() {
 }, 3000);
 
 document.addEventListener('DOMContentLoaded', function() {
-  var botao = document.querySelector('.nav-menu a'); 
-  botao.onmouseover = function() {
-      this.style.opacity = '0.5';
-  };
-  botao.onmouseout = function() {
+  var links = document.querySelectorAll('.nav-menu a'); 
+  links.forEach(function(link) {
+    link.onmouseover = function() {
+      this.style.opacity = '0.5'; 
+    };
+    link.onmouseout = function() {
       this.style.opacity = '1';
-  };
+    };
+  });
 });
