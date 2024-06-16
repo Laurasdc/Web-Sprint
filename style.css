@@ -26,6 +26,11 @@ body, html {
   flex-direction: column;
 }
 
+.conteudo-secundario h2 {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .conteudo-terciario {
   background-color: #172833; 
   height: 100vh;
@@ -62,15 +67,20 @@ td, th {
   padding: 15px; 
   border: 1px solid #dddddd; 
   color:white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
 }
-
-
 
 .texto-central {
-  font-size: 2em; 
-  color: white; 
-  text-shadow: 2px 2px 4px #000000;
-}
+  font-size: 60px;
+  background: linear-gradient(to right, white 49%, #000000 54%, black 60%);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  display: inline;
+    }
+
 
 .logo {
   position: absolute; 
@@ -83,6 +93,7 @@ td, th {
   top: 91px; 
   left: 232px; 
   list-style-type: none;
+  font-size: 22px;
 }
 
 .nav-menu li {
@@ -101,17 +112,31 @@ td, th {
   justify-content: space-between;
 }
 
-.formula-e-imagem, .formula-e-texto {
+.formula-e-imagem {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  font-size: 24px;
+}
+
+.formula-e-texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px; 
+  text-align: center; 
+  align-items: center;
+}
+
+.formula-e-texto h1 {
+  font-size: 36px;
 }
 
 .formula-e-imagem img {
   max-width: 100%;
   height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
