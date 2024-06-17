@@ -1,15 +1,3 @@
-# RM das integrantes:
-Laura Souza de Carvalho |  RM: 556320
-
-Ali Andrea Mamani Molle |  RM: 558052
-
-Bruna da Costa Candeias |  RM: 558938
-
-Sofia Fernandes |  RM: 554873
-
-Queren da Silva Prates |  RM: 558769
-
-
 # 💻 Projeto SustenRace
 
 SustenRace é um site interativo sobre a Fórmula E, focando na parte educacional e conexão com o público. Com o slogan "Emoção sem prejudicar o planeta", o projeto destaca a importância dos carros elétricos.
@@ -57,17 +45,16 @@ SustenRace é um site interativo sobre a Fórmula E, focando na parte educaciona
 
 **Cores:** Fundo azul escuro (#142C5C) e componentes brancos para contraste.
 
-## 📞 Contato
-Para mais informações ou dúvidas, entre em contato:
+## 🧑🏼‍🤝‍🧑🏻 RM dos integrantes
 
-- [@AliAndrea1](https://github.com/AliAndrea1)
+Laura Souza de Carvalho |  RM: 556320
 
-- [@brunacostaz](https://github.com/brunacostaz)
+Ali Andrea Mamani Molle |  RM: 558052
 
-- [@Laurasdc](https://github.com/Laurasdc)
+Bruna da Costa Candeias |  RM: 558938
 
-- [@querenprates](https://github.com/querenprates)
+Sofia Fernandes |  RM: 554873
 
-- [@sofiafernandes857](https://github.com/sofiafernandes857)
+Queren da Silva Prates |  RM: 558769
 
 **💚 SustenRace: Emoção sem prejudicar o planeta.**
